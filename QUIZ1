@@ -7,7 +7,10 @@ Correct answer
 
 1GiB
 
-2) You are consulting for a company that is considering a migration to the AWS cloud. However, their current data centers house over 5TB of data and they are concerned about potential downtime and the amount of time it will take to migrate the data from their small 50mbit broadband connection to the AWS cloud. What service would you use when designing a solution for this company?
+2) You are consulting for a company that is considering a migration to the AWS cloud. However, their current data 
+centers house over 5TB of data and they are concerned about potential downtime and the amount of 
+time it will take to migrate the data from their small 50mbit broadband connection to the AWS cloud. 
+What service would you use when designing a solution for this company?
 
 Correct
 Correct answer
@@ -28,28 +31,34 @@ Correct answer
 
 True
 
-5) Your company is looking at moving its web servers onto AWS. However, they are concerned about costs. Which solution below best describes how AWS can be used to scale out and manage costs effectively for your company?
+5) Your company is looking at moving its web servers onto AWS. However, they are concerned about costs. 
+Which solution below best describes how AWS can be used to scale out and manage costs effectively for your company?
 
 Correct
 Correct answer
 
-Implement an elastic solution that can scale based off of increase in demand and decrease the application environment when demand decreases.
+Implement an elastic solution that can scale based off of increase in demand and decrease the application 
+environment when demand decreases.
 
-6) You've been tasked with building an infrastructure that can easily be spun up and replicated in another region in a matter of minutes. Which AWS service can you use to build out a version controlled infrastructure that is easily reproduced?
+6) You've been tasked with building an infrastructure that can easily be spun up and replicated in another 
+region in a matter of minutes. Which AWS service can you use to build out a version controlled 
+infrastructure that is easily reproduced?
 
 Correct
 Correct answer
 
 Amazon CloudFormation With Templates
 
-7) A properly designed, highly available fault tolerant application will almost always be built across multiple availability zones.
+7) A properly designed, highly available fault tolerant application will almost always be built 
+across multiple availability zones.
 
 Correct
 Correct answer
 
 True
 
-8) Your company has non-production and non-priority batch work loads that can be interrupted and need EC2 instances for processing. Which instance pricing model might be the best for this work load?
+8) Your company has non-production and non-priority batch work loads that can be interrupted and need EC2 
+instances for processing. Which instance pricing model might be the best for this work load?
 
 Correct
 Correct answer
@@ -70,7 +79,8 @@ Correct answer
 
 False
 
-11) You've been tasked to develop a durable backup solution using AWS resources. Which AWS resource would you use for backups on your file storage and why?
+11) You've been tasked to develop a durable backup solution using AWS resources. Which AWS resource 
+would you use for backups on your file storage and why?
 
 Correct
 Correct answer
@@ -91,7 +101,8 @@ Correct answer
 
 Amazon DynamoDB, Amazon S3
 
-14) As an architect it is your job to design for fault tolerance and high availability. Which core service(s) can you use when designing these application architectures?
+14) As an architect it is your job to design for fault tolerance and high availability. Which core service(s) 
+can you use when designing these application architectures?
 
 Correct
 Correct answer
@@ -119,12 +130,14 @@ Correct answer
 
 EBS volumes cannot be attached to EC2 instances in another availability zone.
 
-18) You've been tasked with building a scalable solution on the AWS cloud. What component(s) make up a proper scalable solution?
+18) You've been tasked with building a scalable solution on the AWS cloud. What component(s) make up 
+a proper scalable solution?
 
 Correct
 Correct answer
 
-A scalable application will be resilient and operationally efficient., A scalable solution will decrease in cost as scale increases.
+A scalable application will be resilient and operationally efficient., A scalable solution will decrease 
+in cost as scale increases.
 
 19) EBS volumes are network attached volumes.
 
@@ -133,35 +146,42 @@ Correct answer
 
 True
 
-20) Your company is using EC2 instances to host a website. Currently you're running at least one EC2 instance 100% of the time. What pricing model could you choose to help reduce costs?
+20) Your company is using EC2 instances to host a website. Currently you're running at least one EC2 
+instance 100% of the time. What pricing model could you choose to help reduce costs?
 
 Correct
 Correct answer
 
 Reserved instances
 
-21) Your company is currently using Memcached in order to handle in-memory caching for your RDS servers. When migrating to AWS, which solution could you implement in order to maintain the caching engine and compatibility?
+21) Your company is currently using Memcached in order to handle in-memory caching for your RDS servers.
+When migrating to AWS, which solution could you implement in order to maintain the caching engine and compatibility?
 
-Incorrect
+Correct
 Correct answer
 
 Build an ElastiCache Cluster
 
-22) Availability zones within a region have a direct-connection between each other which minimizes latency and allows for the ability to architect applications with high availability and fault tolerance.
+22) Availability zones within a region have a direct-connection between each other which minimizes latency 
+and allows for the ability to architect applications with high availability and fault tolerance.
 
 Correct
 Correct answer
 
 True
 
-23) Your company is exploring different methods to implement a disaster recovery and backup strategy to an off-site data center. After exploring several cloud options, your company has asked you to consider building the solution using Amazon Web Services. What service(s) might you consider using to implement this solution if you are solely looking at data files and file server backups?
+23) Your company is exploring different methods to implement a disaster recovery and backup strategy to an 
+off-site data center. After exploring several cloud options, your company has asked you to consider building 
+the solution using Amazon Web Services. What service(s) might you consider using to implement this solution 
+if you are solely looking at data files and file server backups?
 
 Correct
 Correct answer
 
 Amazon S3, Amazon Import/Export, Amazon Storage Gateway
 
-24) Your company is low on disk storage space and is looking for a cost effective solution that also has a built-in backup and archiving capability. Which solution would you choose?
+24) Your company is low on disk storage space and is looking for a cost effective solution that also has 
+a built-in backup and archiving capability. Which solution would you choose?
 
 Correct
 Correct answer
