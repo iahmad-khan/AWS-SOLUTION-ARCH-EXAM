@@ -1,0 +1,68 @@
+
+
+1) Bucket names must be unique across all S3.
+
+Correct
+Correct answer
+
+True
+
+2) You've enabled website hosting on a bucket named "linuxacademy-big-bucket" in the region ap-southeast-2. 
+What website URL is assigned to your bucket?
+
+Correct
+Correct answer
+
+linuxacademy-big-bucket.s3-website-ap-southeast-2.amazonaws.com
+
+3) What is the minimum size of an object that can be uploaded to Amazon S3?
+
+Correct
+Correct answer
+
+0Bytes
+Explanation
+
+4) As a solutions architect, it is your job to design for high availability and fault tolerance. Your company is 
+utilizing Amazon S3 to store large amounts of file data. What steps would you take to ensure that if an availability 
+zone was lost due to a natural disaster your files would still be in tact and accessible?
+
+Correct
+Correct answer
+
+Amazon S3 is highly available and fault tolerant by design and requires no additional configuration
+
+5) You're uploading an object larger than 5GB in size so it is required to use the multipart upload API. 
+After configuring the API to upload the object, what is the maximum size of an object you can upload?
+
+Correct
+Correct answer
+
+5TB
+
+6) You've been tasked with designing an AWS architecture that supports a custom developed application. This custom 
+developed application has a business requirement of being able to immediately upload an object to S3 and then 
+immediately download or view the object. Which region would you choose to not build your bucket in and why?
+
+Correct
+Correct answer
+
+None of the above
+Explanation
+
+N. Virginia (US Standard) used to have an eventually consistent model, but this was changed in mid-2015. All regions now 
+provide immediate availability for PUTS of new objets.
+
+7) Data transferred to amazon EC2 from Amazon S3 in the same region does not cost.
+
+Correct
+Correct answer
+
+True
+
+8) AWS S3 can handle unlimited file storage.
+
+Correct
+Correct answer
+
+True
